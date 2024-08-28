@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Портфоліо Офісного Працівника</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        nav {
+            text-align: center;
+            background-color: #444;
+            padding: 10px;
+        }
+        nav a {
+            color: #fff;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .container {
+            max-width: 1100px;
+            margin: auto;
+            padding: 20px;
+            background-color: #fff;
+        }
+        h1, h2 {
+            color: #444;
+        }
+        .section {
+            margin: 20px 0;
+        }
+        .projects, .skills {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        .project, .skill {
+            background-color: #e7e7e7;
+            border-radius: 5px;
+            padding: 10px;
+            margin-bottom: 20px;
+            width: 48%;
+        }
+        .contact {
+            text-align: center;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Портфоліо Офісного Працівника</h1>
+        <p>Стаж: 1 рік | Програмування, Створення сайтів, Написання текстів, Створення музики</p>
+    </header>
+
+    <nav>
+        <a href="#about">Про мене</a>
+        <a href="#skills">Навички</a>
+        <a href="#projects">Проекти</a>
+        <a href="#contact">Контакти</a>
+    </nav>
+
+    <div class="container">
+        <section id="about" class="section">
+            <h2>Про мене</h2>
+            <p>Мене звати Максим, я базовий офісний працівник зі стажем роботи один рік. Маю знання в програмуванні, створенні сайтів, написанні текстів, та створенні музики. Шукаю можливості для реалізації своїх навичок у цікавих проектах та розвитку кар'єри.</p>
+        </section>
+
+        <section id="skills" class="section">
+            <h2>Навички</h2>
+            <div class="skills">
+                <div class="skill">
+                    <h3>Програмування</h3>
+                    <p>Володіння мовами: HTML, CSS, JavaScript, Python.</p>
+                </div>
+                <div class="skill">
+                    <h3>Створення сайтів</h3>
+                    <p>Розробка адаптивних веб-сайтів з використанням сучасних технологій та фреймворків.</p>
+                </div>
+                <div class="skill">
+                    <h3>Написання текстів</h3>
+                    <p>Досвід у написанні статей, SEO-контенту та інших видів текстового контенту.</p>
+                </div>
+                <div class="skill">
+                    <h3>Створення музики</h3>
+                    <p>Вміння створювати та редагувати музичні треки з використанням цифрових аудіо робочих станцій (DAW).</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="section">
+            <h2>Проекти</h2>
+            <div class="projects">
+                <div class="project">
+                    <h3>Сайт для місцевої компанії</h3>
+                    <p>Розробка простого та функціонального веб-сайту для малого бізнесу, з акцентом на зручність користування та привабливий дизайн.</p>
+                </div>
+                <div class="project">
+                    <h3>Написання статей для блогу</h3>
+                    <p>Створення кількох статей на тему технологій та бізнесу для популярного блогу, з використанням ключових слів для покращення SEO.</p>
+                </div>
+                <div class="project">
+                    <h3>Музичний трек для відео</h3>
+                    <p>Розробка та запис музичного треку для рекламного відео. Використання сучасних інструментів для створення атмосферного саундтреку.</p>
+                </div>
+                <div class="project">
+                    <h3>Автоматизація задач в офісі</h3>
+                    <p>Розробка скриптів на Python для автоматизації рутинних задач в офісі, що дозволило значно зекономити час.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section contact">
+            <h2>Контакти</h2>
+            <p>Email: [012dven@gmail.com]</p>
+            <p>Телефон: [+38 (0)63-03-23-135]</p>
+        </section>
+    </div>
+
+</body>
+</html>
